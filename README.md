@@ -4,99 +4,149 @@
 1. [Introduction](#introduction)
 2. [Passcodes and Encryption](#passcodes-and-encryption)
 3. [Two-Factor Authentication](#two-factor-authentication)
-4. [Tracking and Location Services](#tracking-and-location-services)
-5. [Biometric ID Considerations](#biometric-id-considerations)
-6. [Lock Screen Security](#lock-screen-security)
-7. [App Permissions](#app-permissions)
-8. [Disable Tracking and Ad Tracking](#disable-tracking-and-ad-tracking)
-9. [VPN and Firewall](#vpn-and-firewall)
-10. [Alternatives to Apple Apps](#alternatives-to-apple-apps)
+4. [Optimizing Tracking and Location Services](#optimizing-tracking-and-location-services)
+5. [Biometric ID Considerations and Legal Implications](#biometric-id-considerations-and-legal-implications)
+6. [Enhancing Lock Screen Security](#enhancing-lock-screen-security)
+7. [Managing App Permissions](#managing-app-permissions)
+8. [Disabling Tracking and Ad Tracking](#disabling-tracking-and-ad-tracking)
+9. [Using VPN and Firewall for Enhanced Security](#using-vpn-and-firewall-for-enhanced-security)
+10. [Privacy-Focused Alternatives to Apple Apps](#privacy-focused-alternatives-to-apple-apps)
 11. [Siri Privacy Settings](#siri-privacy-settings)
-12. [iCloud Settings](#icloud-settings)
-13. [Safari Settings](#safari-settings)
-14. [iOS Updates](#ios-updates)
-15. [Physical Security Measures](#physical-security-measures)
-16. [Jailbreaking](#jailbreaking)
-17. [Backups](#backups)
-18. [Malware Protection](#malware-protection)
-19. [External Resources](#external-resources)
-20. [Feedback](#feedback)
+12. [Securing iCloud Settings](#securing-icloud-settings)
+13. [Safari Privacy and Security Settings](#safari-privacy-and-security-settings)
+14. [Staying Secure with iOS Updates](#staying-secure-with-ios-updates)
+15. [Physical Security Measures for Your Device](#physical-security-measures-for-your-device)
+16. [The Risks of Jailbreaking](#the-risks-of-jailbreaking)
+17. [Secure Backups](#secure-backups)
+18. [Screen Time & Restrictions for Added Security](#screen-time--restrictions-for-added-security)
+19. [Optimizing System Services for Privacy](#optimizing-system-services-for-privacy)
+20. [Understanding and Using Lockdown Mode](#understanding-and-using-lockdown-mode)
+21. [Purchasing iOS Devices Anonymously](#purchasing-ios-devices-anonymously)
+22. [Initial Setup and Apple ID: Best Practices](#initial-setup-and-apple-id-best-practices)
+23. [Advanced Location Services and Tracking: Disabling for Privacy](#advanced-location-services-and-tracking-disabling-for-privacy)
+24. [Detailed Privacy Settings Adjustments](#detailed-privacy-settings-adjustments)
+25. [Managing Emergency Alerts and Addressing False Privacy Warnings](#managing-emergency-alerts-and-addressing-false-privacy-warnings)
+26. [VPN and DNS Configurations for Enhanced Privacy](#vpn-and-dns-configurations-for-enhanced-privacy)
+27. [Choosing the Right Device: Device Selection and Biometric Security](#choosing-the-right-device-device-selection-and-biometric-security)
+28. [Alternatives to Data Transfer and iCloud](#alternatives-to-data-transfer-and-icloud)
+29. [Regular Updates and Revisions](#regular-updates-and-revisions)
+30. [External Resources for Further Learning](#external-resources-for-further-learning)
+31. [Feedback and Contributions](#feedback-and-contributions)
 
 ## Introduction
-Welcome to the Ultimate iOS Hardening Guide! This comprehensive guide is designed for users of all levels – from beginners to advanced – aiming to enhance the security and privacy of iPhones and iPads. While primarily focused on iOS, much of this guide is also applicable to iPadOS. We explore Apple's security features, address their limitations, and present alternative solutions for robust privacy and security in the Apple ecosystem.
+Welcome to the Ultimate iOS Hardening Guide! This guide is designed to enhance the security and privacy of iPhones and iPads for users at all levels, from beginners to advanced. We explore and explain Apple's security features, their limitations, and provide alternative solutions for robust privacy and security within the Apple ecosystem.
 
 ## Passcodes and Encryption
-- **Strong Passcode**: Opt for a passcode with at least 6 digits. Consider using an alphanumeric passcode for higher security.
-- **Biometric Security**: Use Face ID or Touch ID, keeping in mind the legal and privacy implications.
-- **Advanced Options**: Disable 'Simple Passcode' to use complex passcodes.
-- **Data Protection**: Enable data protection and keychain protection in your device settings.
+- **Strong Passcode**: Opt for at least a 6-digit passcode, or better yet, an alphanumeric one for higher security.
+- **Biometric Security**: Use Face ID or Touch ID with an understanding of the legal and privacy implications.
+- **Advanced Options**: Turn off 'Simple Passcode' for more complex passcode options.
+- **Data Protection**: Always enable data protection and keychain protection in your settings.
 
 ## Two-Factor Authentication
-Two-factor authentication (2FA) adds an extra layer of security. It requires something you know (your password) and something you have (your device). To enable 2FA, go to `Settings → [Your name] → Password & Security → Two-factor authentication`.
+Two-factor authentication adds a critical layer of security. It combines something you know (your password) and something you have (your device). Activate it under `Settings → [Your name] → Password & Security → Two-factor authentication`.
 
-## Tracking and Location Services
-For privacy, manage your location services and tracking settings. Go to `Settings → Privacy & Security → Tracking` and toggle off the 'Allow Apps to Request to Track' option. Regularly review app permissions for location access in `Settings → Location Services`.
+## Optimizing Tracking and Location Services
+Privacy is key. Regularly check `Settings → Privacy & Security → Tracking` and toggle off 'Allow Apps to Request to Track'. Manage app permissions for location access under `Settings → Location Services`.
 
-## Biometric ID Considerations
-Biometric identifiers like Touch ID and Face ID are convenient but have legal implications. In some jurisdictions, using a passcode offers more legal protection than biometrics.
+## Biometric ID Considerations and Legal Implications
+Biometrics like Touch ID and Face ID are convenient but have legal implications. In some areas, using a passcode offers more legal protection. Consider scenarios where biometrics might be less secure than a passcode.
 
-## Lock Screen Security
-Limit what's accessible from your lock screen to protect personal information. Go to `Settings → Touch ID/Face ID & Passcode` and manage what apps and features are available when your phone is locked.
+## Enhancing Lock Screen Security
+Your lock screen can be a vulnerability. Limit accessible features from `Settings → Touch ID/Face ID & Passcode`. This helps protect personal information even when your phone is locked.
 
-## App Permissions
-Regularly review and manage app permissions in your device settings. Be cautious with permissions for microphone, camera, and location access.
+## Managing App Permissions
+Review app permissions regularly in your device settings, paying special attention to access to the microphone, camera, and location services.
 
-## Disable Tracking and Ad Tracking
-To limit ad tracking, go to `Settings → Privacy & Security → Apple Advertising` and toggle off the 'Personalized Ads' option.
+## Disabling Tracking and Ad Tracking
+To limit ad tracking, navigate to `Settings → Privacy & Security → Apple Advertising` and disable 'Personalized Ads'.
 
-## VPN and Firewall
-Use a VPN for enhanced privacy and security. A VPN protects against Wi-Fi hacking and hides your IP address.
+## Using VPN and Firewall for Enhanced Security
+Protect against Wi-Fi hacking and mask your IP address with a reliable VPN. This is crucial for maintaining privacy on public networks.
 
+## Privacy-Focused Alternatives to Apple Apps
+Consider using privacy-centric alternatives to native Apple apps, such as:
+- Safari → Brave (see iOS browser comparison [here](https://privacytests.org/ios))
+- iMessage → Signal
+- iCloud → Proton Drive
+- iCloud Keychain → Bitwarden
+- Apple Calendar → Proton Calendar
+- iCloud Private Relay (VPN) -> Proton VPN
+- Apple Mail -> Proton Mail
+- Apple Notes -> Standard Notes
+- iCloud Photos -> ente
 
-## Alternatives to Apple Apps
+and so on.
 
-Replacing Apple's native apps with privacy-focused alternatives can significantly enhance your data privacy and security. Here’s a list of alternatives for common Apple apps:
-
-- **iCloud Keychain** -> **Bitwarden**
-- **Safari** -> **Brave**  
-  Check out [iOS browser comparison](https://privacytests.org/ios) for more details.
-- **iMessage** -> **Signal**
-- **iCloud (Cloud Storage)** -> **Proton Drive**
-- **iCloud Private Relay (VPN)** -> **Proton VPN, Mullvad VPN, IVPN**
-- **Apple Calendar** -> **Proton Calendar**
-- **Apple Mail** -> **Proton Mail**
-- **Apple Notes** -> **Standard Notes**
-- **iCloud Photos** -> **ente**
-
-Each of these alternatives has been chosen for their strong focus on user privacy and security, offering features like end-to-end encryption and minimal data collection.
+Each alternative is selected for its strong focus on user privacy and security features, like end-to-end encryption.
 
 ## Siri Privacy Settings
-For better privacy, manage Siri’s access in `Settings → Siri & Search`. Limit the apps Siri can access and consider turning off 'Listen for “Hey Siri”' to reduce data sharing with Apple.
+Manage Siri’s access under `Settings → Siri & Search` for better privacy. Consider disabling 'Listen for “Hey Siri”' to minimize data sharing.
 
-## iCloud Settings
-Review your iCloud settings and manage which apps can synchronize data. Enable two-factor authentication and use end-to-end encryption where possible.
+## Securing iCloud Settings
+Regularly review your iCloud settings. Enable two-factor authentication and use end-to-end encryption where possible.
 
-## Safari Settings
-In Safari, enable Fraudulent Website Warnings and consider disabling JavaScript for enhanced security. Manage website data and cookies effectively in Safari settings.
+## Safari Privacy and Security Settings
+Enhance your privacy in Safari by enabling Fraudulent Website Warnings and managing cookies effectively. Consider disabling JavaScript for added security.
 
-## iOS Updates
-Keep your iOS version updated for the latest security patches. Regularly update your apps as well.
+## Staying Secure with iOS Updates
+Regularly update your iOS to the latest version to benefit from the newest security patches. Keep your apps updated as well.
 
-## Physical Security Measures
-Never leave your device unattended in public. Use features like Find My iPhone for theft recovery.
+## Physical Security Measures for Your Device
+Never leave your device unattended in public places. Use features like Find My iPhone for theft recovery.
 
-## Jailbreaking
-Jailbreaking can expose your device to additional security risks. Weigh the risks versus benefits and generally avoid jailbreaking for security reasons.
+## The Risks of Jailbreaking
+Jailbreaking exposes your device to additional security risks. It's generally advised to avoid jailbreaking for maintaining device security.
 
-## Backups
-Use encrypted backups. Regularly test backup restores to ensure data integrity.
+## Secure Backups
+Always use encrypted backups and regularly test backup restores to ensure data integrity.
 
-## Malware Protection
-Be vigilant against malware. Install reputable anti-malware applications and keep your device updated. Stay informed about new threats and regularly visit websites tracking iOS malware.
+## Screen Time & Restrictions for Added Security
+Use Screen Time to enforce content and privacy restrictions, preventing unauthorized changes to your device settings. This is particularly useful if someone learns your device passcode.
 
-## External Resources
-These resources offer additional, in-depth information on iOS security and privacy aspects.
+## Optimizing System Services for Privacy
+Fine-tune `Settings → Privacy & Security → Location Services → System Services`. Turn off non-essential services like `Location-Based Apple Ads` and `Significant Locations` to minimize location data collection.
+
+## Understanding and Using Lockdown Mode
+Lockdown Mode is designed for users at high risk of targeted cyber attacks. It limits certain functionalities to reduce the device's attack surface. Activate it under `Settings → Privacy & Security → Lockdown Mode`, but be aware that it will restrict many standard features.
+
+## Purchasing iOS Devices Anonymously
+For anonymity, purchase iOS devices with cash at physical stores and avoid any setup or registration offered in-store.
+
+## Initial Setup and Apple ID: Best Practices
+Start with a new or factory reset device. Set up your Apple ID away from personal networks and use non-personal information for the account.
+
+## Advanced Location Services and Tracking: Disabling for Privacy
+During the initial setup, disable all connectivity options like Wi-Fi, Bluetooth, and cellular data. Post-setup, regularly verify these settings, especially after updates.
+
+## Detailed Privacy Settings Adjustments
+Limit Siri's access and turn off notifications for sensitive apps. In Safari, use private browsing and disable suggestions—opt-out of analytics data sharing for enhanced privacy.
+
+## Managing Emergency Alerts and Addressing False Privacy Warnings
+Understand that some government alerts may bypass your settings. Verify your settings if iOS flags a privacy warning due to DNS changes. Often, these can be dismissed for secure DNS setups.
+
+## VPN and DNS Configurations for Enhanced Privacy
+Choose a privacy-respecting VPN provider and configure it not to log your data. Use DNS services for additional filtering and privacy.
+
+## Choosing the Right Device: Device Selection and Biometric Security
+Select devices with features that meet your security needs. Understand the legal and security implications of biometric features like Touch ID and Face ID.
+
+## Alternatives to Data Transfer and iCloud
+Explore secure cloud services like Proton Drive and prefer physical data transfers (like USB) over wireless ones for sensitive data.
+
+## Regular Updates and Revisions
+
+### Staying Current with iOS Developments
+- **Evolving Security Landscape**: The realm of iOS security and privacy is continually evolving. New updates from Apple often introduce changes in features, settings, and security protocols.
+- **Commitment to Relevance**: We are committed to keeping this guide updated with the latest information and best practices. This ensures that the advice and strategies provided here remain relevant and effective.
+- **Recommendation for Readers**: We encourage readers to revisit this guide periodically. Staying informed about the latest updates and revisions will help you maintain the highest level of security and privacy on your iOS devices.
+- **Community Input**: Your feedback and contributions are invaluable in keeping this guide comprehensive and up-to-date. Please feel free to suggest updates or new information that might be beneficial to include.
+
+### Keeping Up with iOS Updates
+- **Checking for iOS Updates**: Regularly check for and install the latest iOS updates on your device. These updates often contain crucial security patches and feature enhancements.
+- **Reviewing Guide Updates**: After updating your iOS, revisit this guide to ensure that your security settings and practices align with any new changes introduced by the update.
+
+## External Resources for Further Learning
 - [Into the Cyberverse](https://alternativeto.net/list/34604/cyberverse) - The ultimate list of apps/services for better Security, Privacy and Anonymity
 
-## Feedback
-We welcome your suggestions and feedback. You can open an issue on this GitHub repository or submit a pull request with your contributions.
+## Feedback and Contributions
+We welcome your suggestions and feedback. Please feel free to open an issue on this GitHub repository or submit a pull request with your contributions.
