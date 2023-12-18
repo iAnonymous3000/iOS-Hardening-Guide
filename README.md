@@ -147,6 +147,7 @@ Explore secure cloud services like Proton Drive and prefer physical data transfe
 
 ## External Resources for Further Learning
 - [Into the Cyberverse](https://alternativeto.net/list/34604/cyberverse) - The ultimate list of apps/services for better Security, Privacy and Anonymity
+- [Personal Safety User Guide for Apple Devices](https://help.apple.com/pdf/personal-safety/en_US/personal-safety-user-guide.pdf): Apple's official guide is a comprehensive resource for anyone concerned about or experiencing technology-enabled abuse, stalking, or harassment. It offers practical steps to sever digital ties and utilize the built-in safety features of Apple devices.
 
 ## Feedback and Contributions
 We welcome your suggestions and feedback. Please feel free to open an issue on this GitHub repository or submit a pull request with your contributions.
