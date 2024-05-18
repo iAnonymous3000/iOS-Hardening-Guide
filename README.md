@@ -42,9 +42,18 @@
 39. [Learn to use Emergency SOS](#learn-to-use-emergency-sos)
 40. [Enable USB Restricted Mode](#enable-usb-restricted-mode)
 41. [Managing Emergency Alerts and Addressing False Privacy Warnings](#managing-emergency-alerts-and-addressing-false-privacy-warnings)
-42. [Regular Updates and Revisions](#regular-updates-and-revisions)
-43. [External Resources for Further Learning](#external-resources-for-further-learning)
-44. [Feedback and Contributions](#feedback-and-contributions)
+42. [Password Management and Account Security](#password-management-and-account-security)
+43. [Privacy Implications of iCloud Backups](#privacy-implications-of-icloud-backups)
+44. [Threat Modeling Scenarios](#threat-modeling-scenarios)
+45. [Securely Disposing of Old Devices](#securely-disposing-of-old-devices)
+46. [Privacy Trade-offs of Find My](#privacy-trade-offs-of-find-my)
+47. [Securely Using Apple Pay and Wallet Features](#securely-using-apple-pay-and-wallet-features)
+48. [Educating Family and Friends about Secure Practices](#educating-family-and-friends-about-secure-practices)
+49. [Managing IoT Devices and Their Access](#managing-iot-devices-and-their-access)
+50. [Contextualizing Jailbreaking Risks](#contextualizing-jailbreaking-risks)
+51. [Regular Updates and Revisions](#regular-updates-and-revisions)
+52. [External Resources for Further Learning](#external-resources-for-further-learning)
+53. [Feedback and Contributions](#feedback-and-contributions)
 
 ## Introduction
 Welcome to the Ultimate iOS Hardening Guide! This guide is designed to enhance the security and privacy of iPhones and iPads for users at all levels, from beginners to advanced. We explore and explain Apple's security features, their limitations, and provide alternative solutions for robust privacy and security within the Apple ecosystem.
@@ -200,6 +209,37 @@ Enable USB Accessories under `Settings → Touch ID/Face ID & Passcode` to preve
 ## Managing Emergency Alerts and Addressing False Privacy Warnings
 Understand that some government alerts may bypass your settings. Verify your settings if iOS flags a privacy warning due to DNS changes. Often, these can be dismissed for secure DNS setups.
 
+## Password Management and Account Security
+Use strong, unique passwords for all accounts, not just your device passcode. Consider using a password manager to generate and store complex passwords securely.
+
+## Privacy Implications of iCloud Backups
+iCloud backups, while convenient, may not provide the same level of privacy as local backups. Consider using secure alternatives for sensitive data.
+
+## Threat Modeling Scenarios
+Here are a few common threat scenarios and the most relevant security measures for each:
+
+1. **Lost or Stolen Device**: Enable Find My, use a strong passcode, and consider enabling Stolen Device Protection. Regularly back up your data.
+2. **Targeted Cyber Attack**: Use Lockdown Mode, keep your device and apps updated, and be cautious about installing apps from unknown sources.
+3. **Data Breaches**: Use unique, strong passwords for each account, enable two-factor authentication wherever possible, and monitor your accounts for suspicious activity.
+
+## Securely Disposing of Old Devices
+Before disposing of an old device, make sure to sign out of all accounts, perform a factory reset, and remove the SIM card. Physically destroy the device if it contained highly sensitive data.
+
+## Privacy Trade-offs of Find My
+While Find My is valuable for locating a lost or stolen device, it does mean sharing your device's location data with Apple. Consider this trade-off in your threat model.
+
+## Securely Using Apple Pay and Wallet Features
+When setting up Apple Pay or other wallet features, verify that you're on a trusted device and network. Use Touch ID, Face ID, or a strong passcode for transactions.
+
+## Educating Family and Friends about Secure Practices
+Your security is only as strong as your weakest link. Encourage family and friends to also follow good security practices, especially if you frequently communicate with them.
+
+## Managing IoT Devices and Their Access
+Be mindful of the IoT devices you connect to your Apple devices. Regularly review their permissions and access, and use strong, unique passwords for their accounts.
+
+## Contextualizing Jailbreaking Risks
+Jailbreaking allows users to bypass many of iOS's security restrictions, which can be appealing for customization and access to certain apps. However, it exposes the device to significant security risks and should be avoided for most users.
+
 ## Regular Updates and Revisions
 
 ### Staying Current with iOS Developments
@@ -213,8 +253,16 @@ Understand that some government alerts may bypass your settings. Verify your set
 - **Reviewing Guide Updates**: After updating your iOS, revisit this guide to ensure that your security settings and practices align with any new changes introduced by the update.
 
 ## External Resources for Further Learning
-- [Into the Cyberverse](https://alternativeto.net/list/34604/cyberverse) - The ultimate list of apps/services for better Security, Privacy and Anonymity
-- [Personal Safety User Guide for Apple Devices](https://help.apple.com/pdf/personal-safety/en_US/personal-safety-user-guide.pdf): Apple's official guide is a comprehensive resource for anyone concerned about or experiencing technology-enabled abuse, stalking, or harassment. It offers practical steps to sever digital ties and utilize the built-in safety features of Apple devices.
+- [Into the Cyberverse](https://alternativeto.net/list/34604/cyberverse) - The ultimate list of apps/services for better Security, Privacy and Anonymity 
+- [Apple Platform Security Guide](https://support.apple.com/guide/security/welcome/web): Apple's detailed guide on the security features of their platforms.
+- [Apple's Privacy Website](https://www.apple.com/privacy/): Apple's overview of their approach to privacy.
+- [OWASP Mobile Security Testing Guide](https://owasp.org/www-project-mobile-security-testing-guide/): Comprehensive manual for mobile app security testing and reverse engineering.
+- [Personal Safety User Guide for Apple Devices](https://help.apple.com/pdf/personal-safety/en_US/personal-safety-user-guide.pdf): Apple's official guide for anyone concerned about or experiencing technology-enabled abuse, stalking, or harassment.
+- [r/privacy Wiki](https://www.reddit.com/r/privacy/wiki/index): The wiki for the r/privacy subreddit, which contains a wealth of privacy-related resources.
 
 ## Feedback and Contributions
-We welcome your suggestions and feedback. Please feel free to open an issue on this GitHub repository or submit a pull request with your contributions.
+We welcome and appreciate your suggestions and feedback. If you have ideas for improving this guide, please feel free to open an issue on this GitHub repository or submit a pull request with your contributions.
+
+Remember, security is an ongoing process. Stay vigilant, keep learning, and always prioritize the protection of your personal data. Together, we can create a safer, more privacy-respecting digital environment.
+
+Thank you for using the Ultimate iOS Hardening Guide!
