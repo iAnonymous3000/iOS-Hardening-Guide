@@ -93,6 +93,8 @@ Enable Find My under `Settings → [Your Name] → Find My` to locate, lock, or 
 ## Enable Automatic Updates
 Turn on automatic updates under `Settings → General → Software Update → Automatic Updates` to ensure your device always has the latest security patches.
 
+<img src="https://github.com/iAnonymous3000/iOS-Hardening-Guide/assets/32236127/f6942a24-b984-4ce9-9d65-8b853465cd53" alt="automatic-updates_settings" width="300">
+
 ## Two-Factor Authentication
 Two-factor authentication adds a critical layer of security. It combines something you know (your password) and something you have (your device). Activate it under `Settings → [Your name] → Password & Security → Two-factor authentication`.
 
