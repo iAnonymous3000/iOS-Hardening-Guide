@@ -204,7 +204,28 @@ Lockdown Mode is designed for users at high risk of targeted cyber attacks. It l
 Know how to activate Emergency SOS (press and hold the side button and either volume button) to quickly call for help and alert your emergency contacts.
 
 ## Enable USB Restricted Mode
-Enable USB Accessories under `Settings → Touch ID/Face ID & Passcode` to prevent USB accessories from connecting when your device has been locked for over an hour.
+
+Enabling USB Restricted Mode further enhances the security of your iOS device. This feature prevents USB accessories from connecting when your device has been locked for over an hour, protecting against unauthorized access attempts via the Lightning port.
+
+**How it works:** When USB Restricted Mode is enabled, your iPhone or iPad will not communicate with USB accessories if the device has been locked for more than an hour. This prevents potential attackers from using USB accessories to bypass the lock screen or extract data, even if they have physical access to your device.
+
+**Protection against hacking tools:** USB Restricted Mode also defends against hacking tools like GrayKey and Cellebrite, which can be used to bypass the lock screen by connecting to the Lightning port. By enabling this feature, you add an extra layer of security to your device's passcode protection.
+
+**Enabling USB Restricted Mode:**
+
+1. Go to `Settings → Touch ID/Face ID & Passcode`.
+
+2. Make sure the "Accessories" option is turned off under "Allow Access When Locked".
+
+<img src="https://github.com/iAnonymous3000/iOS-Hardening-Guide/assets/32236127/d378c0c6-4427-4d6a-aae8-bdebb7465f46" alt="usb_restricted_mode_settings" width="300">
+
+When this setting is off, your iPhone will display the following message:
+
+"Unlock iPhone to allow accessories to connect when it has been more than an hour since your iPhone was locked."
+
+This confirms that USB Restricted Mode is active and will prevent USB accessories from connecting if the device has been locked for over an hour.
+
+**Why it matters:** Enabling USB Restricted Mode is especially important if your iPhone or iPad contains sensitive personal or business data. It helps ensure that this data remains secure even if your device is lost or stolen, providing a simple but effective way to enhance your device's security and protect against unauthorized access attempts.
 
 ## Managing Emergency Alerts and Addressing False Privacy Warnings
 Understand that some government alerts may bypass your settings. Verify your settings if iOS flags a privacy warning due to DNS changes. Often, these can be dismissed for secure DNS setups.
