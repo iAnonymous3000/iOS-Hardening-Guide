@@ -59,7 +59,21 @@
 Welcome to the Ultimate iOS Hardening Guide! This guide is designed to enhance the security and privacy of iPhones and iPads for users at all levels, from beginners to advanced. We explore and explain Apple's security features, their limitations, and provide alternative solutions for robust privacy and security within the Apple ecosystem.
 
 ## Choosing the Right Device: Device Selection and Biometric Security
-Select devices with features that meet your security needs. Understand the legal and security implications of biometric features like Touch ID and Face ID. Consider upgrading to a device with an A12 CPU or higher for improved security features and faster updates.
+
+When selecting an iOS device, it's crucial to consider the security features offered by different models. Apple continuously addresses security bugs and introduces new security enhancements with each new generation of iPhones and iPads.
+
+**Upgrade to an A12 CPU or higher:**
+In the latest models, Apple has made significant changes to address the checkm8 vulnerability and improve overall device security. The CPU (Central Processing Unit) is the "brain" of your device, responsible for executing instructions and handling security features. The checkm8 vulnerability is a permanent issue affecting devices with A11 chips and older, allowing attackers with physical access to run unauthorized code on your device.
+
+By introducing Pointer Authentication Codes (PAC) in devices with A12 CPUs and newer, Apple has vastly improved the security of newer iOS devices. PAC uses cryptography to make certain attacks much harder, and it depends on features available starting with the A12 CPU, which are present in most devices released in 2018 and all devices released since 2019.
+
+**Recommendation:**
+The only fix for the checkm8 vulnerability is to replace your device with one that has an A12 or later CPU. If you're using an older device, consider upgrading to a newer model to protect yourself from this vulnerability and benefit from the improved security features offered by the latest iOS devices.
+
+**Biometric Security:**
+When setting up your device, you'll have the option to enable biometric authentication using Face ID or Touch ID, depending on your device model. While these features offer convenience, it's essential to understand the legal and security implications of using biometric authentication. In some jurisdictions, law enforcement may be able to compel you to unlock your device using your face or fingerprint, whereas a passcode may offer more legal protection.
+
+Consider your threat model and the legal implications in your area when deciding whether to enable biometric authentication. If you do choose to use Face ID or Touch ID, be sure to also set a strong passcode as a backup authentication method.
 
 ## Purchasing iOS Devices Anonymously
 For anonymity, purchase iOS devices with cash at physical stores and avoid any setup or registration offered in-store.
