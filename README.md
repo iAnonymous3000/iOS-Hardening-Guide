@@ -88,7 +88,37 @@ Start with a new or factory reset device. Set up your Apple ID away from persona
 - **Data Protection**: Always enable data protection and keychain protection in your settings.
 
 ## Enable Find My
-Enable Find My under `Settings → [Your Name] → Find My` to locate, lock, or erase your device remotely if it's lost or stolen.
+
+Use Find My to locate, lock, or erase your device if it gets lost or stolen. A locked iPhone cannot be reused without your Apple ID credentials, even if the phone is wiped and has its software reinstalled.
+
+**What is Find My?**
+
+Find My is a built-in app that allows you to:
+- Locate your device on a map
+- Play a sound to help you find your device
+- Mark your device as lost and lock it with a passcode
+- Erase your device remotely if needed
+
+**Set up Find My:**
+1. Open the Settings app.
+2. Tap on your name at the top of the screen.
+3. Tap on "Find My".
+4. Enable the "Find My iPhone" option.
+5. Enable "Find My network" to locate your iPhone even when it's offline, in power reserve mode, or after power off.
+6. Enable "Send Last Location" to automatically send the location of your iPhone to Apple when the battery is critically low.
+
+<img src="https://github.com/iAnonymous3000/iOS-Hardening-Guide/assets/32236127/1b264b7c-e062-45ee-896a-2db642ca01e9" alt="Find My settings" width="300">
+
+If you're asked to sign in, enter your Apple ID credentials. When you set up Find My, any paired Apple Watch and AirPods are automatically set up as well.
+
+**Find My network:**
+Participating in the Find My network allows you to locate your iPhone even when it's offline, in power reserve mode, or after power off. This is a crucial feature that increases the chances of recovering your device if it's lost or stolen.
+
+**Send Last Location:**
+Enabling "Send Last Location" ensures that your iPhone automatically sends its location to Apple when the battery is critically low. This information can be vital in locating your device if it runs out of power.
+
+**Recommendation:**
+It's essential to enable Find My on your iPhone or iPad, along with the "Find My network" and "Send Last Location" features. These settings provide an extra layer of security, making it much harder for thieves to resell or use your device if it's ever lost or stolen. Even if your device is wiped and the software is reinstalled, it will remain locked and unusable without your Apple ID credentials.
 
 ## Enable Automatic Updates
 Turn on automatic updates under `Settings → General → Software Update → Automatic Updates` to ensure your device always has the latest security patches.
