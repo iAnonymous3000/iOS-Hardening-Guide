@@ -246,8 +246,51 @@ Fine-tune `Settings → Privacy & Security → Location Services → System Serv
 ## Understanding and Using Lockdown Mode
 Lockdown Mode is designed for users at high risk of targeted cyber attacks. It limits certain functionalities to reduce the device's attack surface. Activate it under `Settings → Privacy & Security → Lockdown Mode`, but be aware that it will restrict many standard features. Familiarize yourself with Lockdown Mode and its implications.
 
-## Learn to use Emergency SOS
-Know how to activate Emergency SOS (press and hold the side button and either volume button) to quickly call for help and alert your emergency contacts.
+## Learn to Use Emergency SOS
+
+Emergency SOS is a critical feature that can help you quickly call for help and protect your device in dangerous situations. When activated, it disables Touch ID and Face ID until you enter your passcode, and optionally, it can automatically call emergency services (911 in the US).
+
+**How to activate Emergency SOS:**
+
+There are two ways to activate Emergency SOS:
+
+1. **Call with 5 Button Presses**: Rapidly press the side button 5 times. When the countdown ends, iPhone will call emergency services.
+
+2. **Call with Hold and Release**: Press and hold the side button and either volume button. A countdown begins and an alarm sounds. After the countdown, if you release the buttons, iPhone will call emergency services. In certain regions, you may need to specify an emergency service to dial.
+
+<img src="https://github.com/iAnonymous3000/iOS-Hardening-Guide/assets/32236127/dd060751-efb0-4ac8-a02a-18a2badb081b" alt="emergency_sos_activation" width="300">
+
+If needed, you can call emergency services by sliding the Emergency SOS slider on the screen.
+
+**Enabling Auto-Calling:**
+
+You can set your device to automatically call emergency services after the Emergency SOS screen appears. The call will be made after an 8-second countdown. To enable auto-calling:
+
+1. Open the Settings app.
+2. Tap on Emergency SOS.
+3. Enable the "Call with Hold" and "Call with 5 Presses" toggles.
+
+There are two ways to use auto-calling:
+1. Call after 5 presses: Continue holding the power and volume buttons for more than 10 seconds.
+2. Call with Hold: Hold the buttons for more than 10 seconds.
+
+<img src="https://github.com/iAnonymous3000/iOS-Hardening-Guide/assets/32236127/52685c01-9843-4ce3-a86d-be993c72e772" alt="emergency_sos_settings" width="300">
+
+**Setting Up Emergency Contacts:**
+
+You can have Emergency SOS display an emergency contact by selecting "Set up Emergency Contacts in Health" in the Emergency SOS settings.
+
+**Recommendations for Improvement:**
+
+While Emergency SOS is a valuable feature, there are some potential enhancements that could make it even more effective:
+
+- Implement a discreet gesture or button combination to trigger Emergency SOS more inconspicuously in dangerous situations.
+- Allow users to customize the countdown timer for auto-calling (e.g., options for 3, 5, or 8 seconds).
+- Enable sending automated emergency texts to designated contacts when Emergency SOS is activated, including location information if possible.
+- Provide guidance on what information to convey to the emergency operator, especially in dangerous situations.
+- Discuss using Emergency SOS in combination with other iOS emergency features like Medical ID and Emergency Contacts.
+
+By familiarizing yourself with Emergency SOS and understanding how to activate it, you can be better prepared to respond to emergency situations and protect your device and personal information.
 
 ## Enable USB Restricted Mode
 
