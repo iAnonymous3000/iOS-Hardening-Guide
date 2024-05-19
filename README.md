@@ -63,7 +63,7 @@ Welcome to the Ultimate iOS Hardening Guide! This guide is designed to enhance t
 When selecting an iOS device, it's crucial to consider the security features offered by different models. Apple continuously addresses security bugs and introduces new security enhancements with each new generation of iPhones and iPads.
 
 **Upgrade to an A12 CPU or higher:**
-In the latest models, Apple has made significant changes to address the checkm8 vulnerability and improve overall device security. The CPU (Central Processing Unit) is the "brain" of your device, responsible for executing instructions and handling security features. The checkm8 vulnerability is a permanent issue affecting devices with A11 chips and older, allowing attackers with physical access to run unauthorized code on your device.
+In the latest models, Apple has made significant changes to address the [checkm8](https://www.theiphonewiki.com/wiki/Checkm8_Exploit) vulnerability and improve overall device security. The CPU (Central Processing Unit) is the "brain" of your device, responsible for executing instructions and handling security features. The checkm8 vulnerability is a permanent issue affecting devices with A11 chips and older, allowing attackers with physical access to run unauthorized code on your device.
 
 By introducing Pointer Authentication Codes (PAC) in devices with A12 CPUs and newer, Apple has vastly improved the security of newer iOS devices. PAC uses cryptography to make certain attacks much harder, and it depends on features available starting with the A12 CPU, which are present in most devices released in 2018 and all devices released since 2019.
 
@@ -213,26 +213,41 @@ Choose a privacy-respecting VPN provider and configure it not to log your data. 
 
 ## Privacy-Focused Alternatives to Apple Apps
 Consider using privacy-centric alternatives to native Apple apps, such as:
-- Safari → Brave (see iOS browser comparison [here](https://privacytests.org/ios))
-- iMessage → Signal
-- iCloud → Proton Drive
-- iCloud Keychain → Bitwarden
-- Apple Calendar → Proton Calendar
-- iCloud Private Relay (VPN) -> Proton VPN
-- Apple Mail -> Proton Mail
-- Apple Notes -> Standard Notes
-- iCloud Photos -> ente
+- Safari → [Brave](https://brave.com) (see iOS browser comparison [here](https://privacytests.org/ios))
+- iMessage → [Signal](https://signal.org)
+- iCloud → [Proton Drive](https://proton.me/drive)
+- iCloud Keychain → [Bitwarden](https://bitwarden.com) / [Proton Pass](https://proton.me/pass)
+- Apple Calendar → [Proton Calendar](https://proton.me/calendar) 
+- iCloud Private Relay (VPN) -> [MullvadVPN](https://mullvad.net/en) / [IVPN](https://www.ivpn.net) / [Proton VPN](https://protonvpn.com)
+- Apple Mail -> [Proton Mail](https://proton.me/mail)
+- Apple Notes -> [Standard Notes](https://standardnotes.com)
+- iCloud Photos -> [ente](https://ente.io) ([ente vs Apple Photos](https://ente.io/compare/ente-vs-apple-photos))
 
-Each alternative is selected for its strong focus on user privacy and security features, like end-to-end encryption.
+Each alternative is selected for its strong focus on user privacy and security features.
 
 ## Secure Messaging Apps
-In addition to Signal, consider other secure messaging apps like Threema, Wire, or Wickr Me, which offer end-to-end encryption and additional privacy features.
+When choosing a secure messaging app, consider the following options:
+- Signal: An open-source, end-to-end encrypted messaging app that has been widely adopted and recommended by security experts.
+- SimpleX Chat: A decentralized, open-source messaging platform that offers end-to-end encryption, no user identifiers (like phone numbers or usernames), and enhanced privacy features.
+- Threema: A paid app that offers end-to-end encryption, doesn't require a phone number, and has a strong focus on privacy and security.
+
+For a comprehensive comparison of secure messaging apps, visit [Secure Messaging Apps](https://www.securemessagingapps.com). This website compares various messaging apps based on their security features, privacy policies, and other important factors, helping you make an informed decision.
 
 ## Privacy-focused Browsers
-Besides Brave, other privacy-centric browsers worth considering include Firefox Focus and DuckDuckGo Privacy Browser, which have built-in tracking protection and ad-blocking features.
+When it comes to privacy-centric browsers, consider the following options:
+- Brave: A Chromium-based browser with built-in ad and tracker blocking, as well as a privacy-focused incognito mode.
+- Firefox Focus: A free, open-source browser with built-in tracking protection, ad-blocking, and the ability to erase your sessions easily.
+
+These browsers offer robust privacy features to help protect your online activities from tracking and surveillance.
 
 ## Secure Email Providers
-Apart from ProtonMail, other secure email providers like Tutanota or Mailfence offer end-to-end encryption and enhanced privacy features.
+For secure and private email communication, consider the following providers:
+- ProtonMail: An end-to-end encrypted email service that offers a free tier and paid plans with additional features.
+- Tutanota: A free, open-source email service with end-to-end encryption, two-factor authentication, and the ability to send encrypted emails to non-Tutanota users.
+
+To compare various secure email providers, visit [Email Provider Comparison](https://email-comparison.as93.net). This website offers a detailed comparison of email providers based on their security features, privacy policies, jurisdiction, and other crucial factors.
+
+By carefully selecting a secure messaging app, privacy-focused browser, and secure email provider, you can significantly enhance your privacy and security when communicating and browsing online.
 
 ## App Sandboxing
 iOS's app sandboxing contributes to the overall security of the device by isolating apps from each other and limiting their access to system resources.
