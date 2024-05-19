@@ -76,7 +76,26 @@ When setting up your device, you'll have the option to enable biometric authenti
 Consider your threat model and the legal implications in your area when deciding whether to enable biometric authentication. If you do choose to use Face ID or Touch ID, be sure to also set a strong passcode as a backup authentication method.
 
 ## Purchasing iOS Devices Anonymously
-For anonymity, purchase iOS devices with cash at physical stores and avoid any setup or registration offered in-store.
+
+To maintain anonymity when purchasing an iOS device, follow these best practices:
+
+- **Pay with cash**: Purchase iOS devices with cash at physical stores to avoid leaving a digital trail. 
+
+- **Avoid in-store setup or registration**: Decline any setup or registration offered in-store, as this may link your personal information to the device.
+
+- **Use prepaid cards for online purchases**: If purchasing online, use a prepaid credit card or gift card to maintain anonymity. Avoid using personal credit cards or payment methods linked to your identity.
+
+- **Limit personal information**: When purchasing in-store, avoid providing any personal information, such as your email address or phone number, even if asked by the store representative. If you need to provide a name for the purchase, consider using a pseudonym or a generic name not linked to your real identity.
+
+- **Avoid using loyalty cards or memberships**: Don't purchase devices from stores where you have a membership or loyalty card, as these can be linked to your personal information.
+
+- **Use a PO box or mailbox service**: If you need to have the device shipped, consider using a PO box or a mailbox service that allows you to receive packages without revealing your home address.
+
+- **Set up the device privately**: After purchasing the device, avoid setting it up or connecting to Wi-Fi networks in the store. Wait until you are in a private, secure location to begin the setup process.
+
+- **Provide minimal information during setup**: During the initial setup, skip or provide minimal information when prompted for Apple ID, email, or other personal details. You can always add this information later, if needed, in a more secure environment.
+
+Remember, the goal is to minimize the amount of personal information associated with the purchase and initial setup of the device. By taking these precautions, you can help maintain your anonymity and reduce the risk of your personal data being linked to your iOS device.
 
 ## Initial Setup and Apple ID: Best Practices
 Start with a new or factory reset device. Set up your Apple ID away from personal networks and use non-personal information for the account. During the initial setup, disable all connectivity options like Wi-Fi, Bluetooth, and cellular data.
