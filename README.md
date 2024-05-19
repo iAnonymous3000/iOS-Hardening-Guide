@@ -160,7 +160,24 @@ Biometrics like Touch ID and Face ID are convenient but have legal implications.
 Your lock screen can be a vulnerability. Limit accessible features from `Settings → Touch ID/Face ID & Passcode`. This helps protect personal information even when your phone is locked.
 
 ## Disable Control Center when locked
-Disable access to Control Center when your device is locked under `Settings → Touch ID/Face ID & Passcode` to prevent unauthorized changes to settings.
+
+Disable access to Control Center when your device is locked to prevent unauthorized changes to your settings. By default, Control Center can be accessed from the lock screen, which introduces an unnecessary security risk.
+
+For example, a thief could snatch your phone and quickly disable the cellular and Wi-Fi connections, preventing you from locating it with Find My. Additionally, settings such as Bluetooth or AirDrop, which you may have disabled to decrease your risk, can be re-enabled unless you follow these steps:
+
+1. Open the Settings app.
+2. Tap on one of the following, depending on your device's configuration:
+   - Face ID & Passcode
+   - Touch ID & Passcode
+   - Passcode
+3. Enter your passcode.
+4. Scroll to the "Allow Access When Locked" section.
+5. Uncheck "Control Center".
+6. Also uncheck any other features you don't use.
+
+<img src="https://github.com/iAnonymous3000/iOS-Hardening-Guide/assets/32236127/cf3633ba-c904-43c8-81cb-28e64058de07" alt="disable_control_center_when_locked" width="300">
+
+By disabling Control Center access when your device is locked, you can prevent unauthorized changes to your settings and reduce potential security risks.
 
 ## Enable Stolen Device Protection
 Stolen Device Protection adds a layer of security when your iPhone is away from familiar locations, such as home or work, and helps protect your accounts and personal information in case your iPhone is ever stolen.
