@@ -145,19 +145,55 @@ Turn on automatic updates under `Settings → General → Software Update → Au
 <img src="https://github.com/iAnonymous3000/iOS-Hardening-Guide/assets/32236127/f6942a24-b984-4ce9-9d65-8b853465cd53" alt="automatic-updates_settings" width="300">
 
 ## Two-Factor Authentication
-Two-factor authentication adds a critical layer of security. It combines something you know (your password) and something you have (your device). Activate it under `Settings → [Your name] → Password & Security → Two-factor authentication`.
+Two-factor authentication adds a critical layer of security. It combines something you know (your password) and something you have (your device). 
+
+When enabled, you'll need to provide both your password and a six-digit verification code to sign in to your Apple ID account. This code is displayed automatically on your trusted devices or sent to your phone number. Even if someone knows your password, they won't be able to access your account without also having access to your trusted device or phone number.
+
+Apple's two-factor authentication is different from two-step verification. If you're using two-step verification and want to upgrade to two-factor authentication, you'll need to turn off two-step verification and then turn on two-factor authentication.
+
+To activate two-factor authentication:
+1. Go to `Settings → [Your name] → Password & Security`
+2. Tap `Turn On Two-Factor Authentication`
+3. Follow the setup prompts
 
 ## Optimizing Tracking and Location Services
-Privacy is key. Regularly check `Settings → Privacy & Security → Tracking` and toggle off 'Allow Apps to Request to Track'. Manage app permissions for location access under `Settings → Location Services`.
+Privacy is key. Here's how to optimize your tracking and location settings:
+
+1. Go to `Settings → Privacy & Security → Tracking`
+2. Toggle off `Allow Apps to Request to Track` to prevent apps from tracking your activity across other companies' apps and websites for advertising purposes or sharing your information with data brokers
+3. Go to `Settings → Location Services` to manage app permissions for location access
+   - Choose to allow location access always, only while using the app, or never
+   - For apps that don't need your precise location, consider granting access to your approximate location instead
+4. Regularly review which apps have location permissions and revoke access for apps that don't need it
 
 ## Advanced Location Services and Tracking: Disabling for Privacy
-Post-setup, regularly verify location and tracking settings, especially after updates. Consider disabling non-essential location services.
+Post-setup, regularly verify location and tracking settings, especially after iOS updates. Updates may reset your preferences or introduce new settings. Here are some additional steps to minimize tracking:
+
+1. Go to `Settings → Privacy & Security → Location Services → System Services`
+2. Consider disabling non-essential location services like location-based suggestions and ads
+3. Check for any apps that are requesting background location access
+   - Background access allows apps to track your location even when you're not actively using them
+   - Only grant background access to apps that truly need it, such as navigation or fitness tracking apps
 
 ## Biometric ID Considerations and Legal Implications
-Biometrics like Touch ID and Face ID are convenient but have legal implications. In some areas, using a passcode offers more legal protection. Consider scenarios where biometrics might be less secure than a passcode.
+Biometrics like Touch ID and Face ID are convenient but have legal implications. In some jurisdictions, law enforcement can compel you to unlock your device with your face or fingerprint, but they cannot force you to disclose your passcode.
+
+Consider scenarios where biometrics might be less secure than a passcode:
+- Someone could unlock your device while you're sleeping or unconscious
+- In a robbery or kidnapping situation, you could be physically forced to unlock your device
+
+If you do choose to use biometrics:
+- Make sure to also set a strong passcode as a backup
+- Remember, you can always disable biometrics quickly by pressing the power button five times in succession, which will require your passcode to unlock
 
 ## Enhancing Lock Screen Security
-Your lock screen can be a vulnerability. Limit accessible features from `Settings → Touch ID/Face ID & Passcode`. This helps protect personal information even when your phone is locked.
+Your lock screen can be a vulnerability. To enhance lock screen security:
+
+1. Go to `Settings → Touch ID/Face ID & Passcode`
+2. Disable access to features like Today View, Notification Center, Control Center, Siri, Reply with Message, Home Control, Wallet, and USB Accessories while your device is locked
+   - The fewer features accessible from the lock screen, the more secure your device will be
+3. Go to `Settings → Display & Brightness → Auto-Lock` and set a reasonably short auto-lock timeout
+   - This ensures your device will lock quickly when not in use, even if you forget to lock it manually
 
 ## Disable Control Center when locked
 
@@ -250,10 +286,38 @@ To compare various secure email providers, visit [Email Provider Comparison](htt
 By carefully selecting a secure messaging app, privacy-focused browser, and secure email provider, you can significantly enhance your privacy and security when communicating and browsing online.
 
 ## App Sandboxing
-iOS's app sandboxing contributes to the overall security of the device by isolating apps from each other and limiting their access to system resources.
+iOS's app sandboxing is a critical security feature that contributes to the overall security of the device by isolating apps from each other and limiting their access to system resources.
+
+Key benefits of app sandboxing:
+1. **Data Protection**: Each app has its own dedicated space for storing data, preventing unauthorized access from other apps.
+2. **Resource Access**: Apps can only access system resources, like the camera or location, with explicit user permission.
+3. **Inter-App Communication**: Communication between apps is restricted to specific iOS APIs, preventing data theft or interference.
+4. **Privilege Separation**: Apps run with the lowest level of privilege needed, minimizing potential damage if compromised.
+
+While largely invisible to users, app sandboxing is essential to iOS security. However, it can be weakened by jailbreaking or sideloading apps from outside the App Store, exposing your device to greater risk.
 
 ## Secure Wireless Connections
-Secure your wireless connections by using WPA3 encryption for Wi-Fi networks and avoiding unsecured public Wi-Fi hotspots.
+Securing your wireless connections is crucial for protecting your data in transit. Here are some best practices:
+
+1. **Use WPA3 encryption for Wi-Fi**: 
+   - Choose WPA3 if your router supports it, as it offers the best protection against password guessing and encryption cracking.
+   - If WPA3 isn't available, use WPA2 with AES encryption.
+   - Avoid WPA, WEP, or open networks, as they are much less secure.
+
+2. **Avoid unsecured public Wi-Fi**: 
+   - Public Wi-Fi hotspots are often unsecured or poorly secured, exposing your data to interception.
+   - If you must use public Wi-Fi, connect to a VPN first to encrypt your data (see VPN section for details).
+   - Avoid accessing sensitive information, like banking, while on public Wi-Fi, even with a VPN.
+
+3. **Use cellular data instead of Wi-Fi**: 
+   - Cellular networks are generally more secure than public Wi-Fi, using encryption and being harder to intercept.
+   - Be mindful of data costs, especially when roaming or on a limited plan.
+
+4. **Keep your devices updated**: 
+   - Install updates for your iOS devices and routers as soon as available.
+   - Updates often include security patches for newly discovered vulnerabilities in Wi-Fi protocols and implementations.
+
+By following these best practices, you can significantly reduce the risk of your wireless connections being compromised and your data being intercepted.
 
 ## Threat Modeling
 Assess your individual security needs based on your specific situation and potential threats you may face. Threat modeling helps you identify, understand, and prioritize the potential threats and vulnerabilities specific to your situation. Consider the following aspects when threat modeling:
